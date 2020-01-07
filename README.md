@@ -23,7 +23,7 @@ For creating a database from other users directly, you can use:
 ## Entering and exiting Postgres prompt
 You can access a Postgres prompt by typing:
 
-    psql
+    psql -d database_name
 And exit by typing and entering `\q`
 ### Notice
 For accessing a Postgres prompt from other users directly, you can use:
